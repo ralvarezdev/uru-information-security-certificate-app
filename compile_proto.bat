@@ -7,7 +7,7 @@ set "SCRIPT_DIR=%~dp0"
 REM Protobuf-related paths
 set "PROTO_PATH=%SCRIPT_DIR%\certificate-grpc\proto"
 set "PROTO_CERTIFICATE_PATH=%PROTO_PATH%\ralvarezdev\certificate.proto"
-set "PROTO_OUT_PATH=%SCRIPT_DIR%\"
+set "PROTO_OUT_PATH=%SCRIPT_DIR%\ralvarezdev"
 
 REM Activate the virtual environment
 call .venv\Scripts\activate.bat
